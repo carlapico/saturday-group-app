@@ -17,6 +17,8 @@ const Pages = () => {
         <>
             <header>
                 <h1>This is our Saturday</h1>
+            </header>
+            <main>
                 {data.map( (each) => {
                     return (
                         <div>
@@ -26,8 +28,8 @@ const Pages = () => {
                         </div>
                     )
                 } )}
+            </main>
 
-            </header>
         </>
     )
 }
